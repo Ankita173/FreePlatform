@@ -1,0 +1,7 @@
+com/platform/dataaccess/resources/DataAccessController.class
+com/platform/dataaccess/DataaccessApplication.class
+com/platform/dataaccess/config/SwaggerConfig.class
+com/platform/dataaccess/repo/ProductRepository.class
+com/platform/dataaccess/services/CacheService.class
+com/platform/dataaccess/config/CacheConfig.class
+com/platform/dataaccess/model/Product.class
