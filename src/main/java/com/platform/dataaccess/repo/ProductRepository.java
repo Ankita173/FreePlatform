@@ -1,0 +1,16 @@
+package com.platform.dataaccess.repo;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+import com.platform.dataaccess.model.Product;
+
+
+public interface ProductRepository extends JpaRepository<Product, Integer> {
+	
+	List<Product> findByName(String name);
+	 
+}
+
